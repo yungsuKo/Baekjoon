@@ -24,7 +24,7 @@ console.log(len);
 
 for(let i = 0; i < len; i++){
   let zeroCount = 1, oneCount = 0;
-  for(j = 1; j<=input[i]; j++){
+  for(let j = 1; j<=input[i]; j++){
     const tmpCount = zeroCount;
 
     zeroCount = oneCount;
